@@ -1,0 +1,7 @@
+{
+  "name": "BlockChainTest",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

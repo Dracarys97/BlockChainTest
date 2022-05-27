@@ -1,0 +1,21 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    &__wallet{
+        margin-bottom: 18px;
+        &__label{
+            margin-bottom: 18px;
+        }
+    }
+    &__button{
+        background-color: #d4d404;
+        border-radius: 15%;
+        font-weight: 600;
+        padding: 0.7em 0.4em;
+        color: white;
+        font-size: 20px;
+        width: 9rem;
+    }
+}

@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "BlockChainTest",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}

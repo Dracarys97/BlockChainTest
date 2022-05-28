@@ -30,19 +30,14 @@ const Home: React.FC = () => {
   })
   
   const connect = async () => {
-    console.log("holi")
     await beaconWallet.requestPermissions({network:{type: NetworkType.HANGZHOUNET,rpcUrl}})
 
     tezos.setWalletProvider(beaconWallet);
-    console.log("holi2")
     userAddress = await beaconWallet.getPKH();
-    console.log("holi3")
     if(!userAddress){
       userAddress="afdsfhjkahjfjkasdhf"
     }
     setWallet({address:userAddress,balance:""})
-    console.log(userAddress)
-    console.log(wallet)
     getBalance()
   }
   const getBalance = (()=>{
